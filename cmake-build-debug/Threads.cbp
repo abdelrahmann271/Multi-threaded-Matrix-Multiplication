@@ -79,6 +79,21 @@
 		<Unit filename="/home/nour/CLionProjects/Threads/main.c">
 			<Option target="Threads"/>
 		</Unit>
+		<Unit filename="/home/nour/CLionProjects/Threads/passingArguments.c">
+			<Option target="Threads"/>
+		</Unit>
+		<Unit filename="/home/nour/CLionProjects/Threads/threads1.c">
+			<Option target="Threads"/>
+		</Unit>
+		<Unit filename="/home/nour/CLionProjects/Threads/threads2.c">
+			<Option target="Threads"/>
+		</Unit>
+		<Unit filename="/home/nour/CLionProjects/Threads/threads3.c">
+			<Option target="Threads"/>
+		</Unit>
+		<Unit filename="/home/nour/CLionProjects/Threads/waitingThreads.c">
+			<Option target="Threads"/>
+		</Unit>
 		<Unit filename="/home/nour/CLionProjects/Threads/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

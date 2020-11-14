@@ -170,6 +170,141 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/main.c.s
 .PHONY : main.c.s
 
+passingArguments.o: passingArguments.c.o
+
+.PHONY : passingArguments.o
+
+# target to build an object file
+passingArguments.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/passingArguments.c.o
+.PHONY : passingArguments.c.o
+
+passingArguments.i: passingArguments.c.i
+
+.PHONY : passingArguments.i
+
+# target to preprocess a source file
+passingArguments.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/passingArguments.c.i
+.PHONY : passingArguments.c.i
+
+passingArguments.s: passingArguments.c.s
+
+.PHONY : passingArguments.s
+
+# target to generate assembly for a file
+passingArguments.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/passingArguments.c.s
+.PHONY : passingArguments.c.s
+
+threads1.o: threads1.c.o
+
+.PHONY : threads1.o
+
+# target to build an object file
+threads1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/threads1.c.o
+.PHONY : threads1.c.o
+
+threads1.i: threads1.c.i
+
+.PHONY : threads1.i
+
+# target to preprocess a source file
+threads1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/threads1.c.i
+.PHONY : threads1.c.i
+
+threads1.s: threads1.c.s
+
+.PHONY : threads1.s
+
+# target to generate assembly for a file
+threads1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/threads1.c.s
+.PHONY : threads1.c.s
+
+threads2.o: threads2.c.o
+
+.PHONY : threads2.o
+
+# target to build an object file
+threads2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/threads2.c.o
+.PHONY : threads2.c.o
+
+threads2.i: threads2.c.i
+
+.PHONY : threads2.i
+
+# target to preprocess a source file
+threads2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/threads2.c.i
+.PHONY : threads2.c.i
+
+threads2.s: threads2.c.s
+
+.PHONY : threads2.s
+
+# target to generate assembly for a file
+threads2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/threads2.c.s
+.PHONY : threads2.c.s
+
+threads3.o: threads3.c.o
+
+.PHONY : threads3.o
+
+# target to build an object file
+threads3.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/threads3.c.o
+.PHONY : threads3.c.o
+
+threads3.i: threads3.c.i
+
+.PHONY : threads3.i
+
+# target to preprocess a source file
+threads3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/threads3.c.i
+.PHONY : threads3.c.i
+
+threads3.s: threads3.c.s
+
+.PHONY : threads3.s
+
+# target to generate assembly for a file
+threads3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/threads3.c.s
+.PHONY : threads3.c.s
+
+waitingThreads.o: waitingThreads.c.o
+
+.PHONY : waitingThreads.o
+
+# target to build an object file
+waitingThreads.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/waitingThreads.c.o
+.PHONY : waitingThreads.c.o
+
+waitingThreads.i: waitingThreads.c.i
+
+.PHONY : waitingThreads.i
+
+# target to preprocess a source file
+waitingThreads.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/waitingThreads.c.i
+.PHONY : waitingThreads.c.i
+
+waitingThreads.s: waitingThreads.c.s
+
+.PHONY : waitingThreads.s
+
+# target to generate assembly for a file
+waitingThreads.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/waitingThreads.c.s
+.PHONY : waitingThreads.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -182,6 +317,21 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... passingArguments.o"
+	@echo "... passingArguments.i"
+	@echo "... passingArguments.s"
+	@echo "... threads1.o"
+	@echo "... threads1.i"
+	@echo "... threads1.s"
+	@echo "... threads2.o"
+	@echo "... threads2.i"
+	@echo "... threads2.s"
+	@echo "... threads3.o"
+	@echo "... threads3.i"
+	@echo "... threads3.s"
+	@echo "... waitingThreads.o"
+	@echo "... waitingThreads.i"
+	@echo "... waitingThreads.s"
 .PHONY : help
 
 

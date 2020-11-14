@@ -90,17 +90,92 @@ CMakeFiles/Threads.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Threads.dir/main.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nour/CLionProjects/Threads/main.c -o CMakeFiles/Threads.dir/main.c.s
 
+CMakeFiles/Threads.dir/threads1.c.o: CMakeFiles/Threads.dir/flags.make
+CMakeFiles/Threads.dir/threads1.c.o: ../threads1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nour/CLionProjects/Threads/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Threads.dir/threads1.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Threads.dir/threads1.c.o   -c /home/nour/CLionProjects/Threads/threads1.c
+
+CMakeFiles/Threads.dir/threads1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Threads.dir/threads1.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nour/CLionProjects/Threads/threads1.c > CMakeFiles/Threads.dir/threads1.c.i
+
+CMakeFiles/Threads.dir/threads1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Threads.dir/threads1.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nour/CLionProjects/Threads/threads1.c -o CMakeFiles/Threads.dir/threads1.c.s
+
+CMakeFiles/Threads.dir/threads2.c.o: CMakeFiles/Threads.dir/flags.make
+CMakeFiles/Threads.dir/threads2.c.o: ../threads2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nour/CLionProjects/Threads/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Threads.dir/threads2.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Threads.dir/threads2.c.o   -c /home/nour/CLionProjects/Threads/threads2.c
+
+CMakeFiles/Threads.dir/threads2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Threads.dir/threads2.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nour/CLionProjects/Threads/threads2.c > CMakeFiles/Threads.dir/threads2.c.i
+
+CMakeFiles/Threads.dir/threads2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Threads.dir/threads2.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nour/CLionProjects/Threads/threads2.c -o CMakeFiles/Threads.dir/threads2.c.s
+
+CMakeFiles/Threads.dir/passingArguments.c.o: CMakeFiles/Threads.dir/flags.make
+CMakeFiles/Threads.dir/passingArguments.c.o: ../passingArguments.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nour/CLionProjects/Threads/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Threads.dir/passingArguments.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Threads.dir/passingArguments.c.o   -c /home/nour/CLionProjects/Threads/passingArguments.c
+
+CMakeFiles/Threads.dir/passingArguments.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Threads.dir/passingArguments.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nour/CLionProjects/Threads/passingArguments.c > CMakeFiles/Threads.dir/passingArguments.c.i
+
+CMakeFiles/Threads.dir/passingArguments.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Threads.dir/passingArguments.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nour/CLionProjects/Threads/passingArguments.c -o CMakeFiles/Threads.dir/passingArguments.c.s
+
+CMakeFiles/Threads.dir/waitingThreads.c.o: CMakeFiles/Threads.dir/flags.make
+CMakeFiles/Threads.dir/waitingThreads.c.o: ../waitingThreads.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nour/CLionProjects/Threads/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Threads.dir/waitingThreads.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Threads.dir/waitingThreads.c.o   -c /home/nour/CLionProjects/Threads/waitingThreads.c
+
+CMakeFiles/Threads.dir/waitingThreads.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Threads.dir/waitingThreads.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nour/CLionProjects/Threads/waitingThreads.c > CMakeFiles/Threads.dir/waitingThreads.c.i
+
+CMakeFiles/Threads.dir/waitingThreads.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Threads.dir/waitingThreads.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nour/CLionProjects/Threads/waitingThreads.c -o CMakeFiles/Threads.dir/waitingThreads.c.s
+
+CMakeFiles/Threads.dir/threads3.c.o: CMakeFiles/Threads.dir/flags.make
+CMakeFiles/Threads.dir/threads3.c.o: ../threads3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nour/CLionProjects/Threads/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Threads.dir/threads3.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Threads.dir/threads3.c.o   -c /home/nour/CLionProjects/Threads/threads3.c
+
+CMakeFiles/Threads.dir/threads3.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Threads.dir/threads3.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nour/CLionProjects/Threads/threads3.c > CMakeFiles/Threads.dir/threads3.c.i
+
+CMakeFiles/Threads.dir/threads3.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Threads.dir/threads3.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nour/CLionProjects/Threads/threads3.c -o CMakeFiles/Threads.dir/threads3.c.s
+
 # Object files for target Threads
 Threads_OBJECTS = \
-"CMakeFiles/Threads.dir/main.c.o"
+"CMakeFiles/Threads.dir/main.c.o" \
+"CMakeFiles/Threads.dir/threads1.c.o" \
+"CMakeFiles/Threads.dir/threads2.c.o" \
+"CMakeFiles/Threads.dir/passingArguments.c.o" \
+"CMakeFiles/Threads.dir/waitingThreads.c.o" \
+"CMakeFiles/Threads.dir/threads3.c.o"
 
 # External object files for target Threads
 Threads_EXTERNAL_OBJECTS =
 
 Threads: CMakeFiles/Threads.dir/main.c.o
+Threads: CMakeFiles/Threads.dir/threads1.c.o
+Threads: CMakeFiles/Threads.dir/threads2.c.o
+Threads: CMakeFiles/Threads.dir/passingArguments.c.o
+Threads: CMakeFiles/Threads.dir/waitingThreads.c.o
+Threads: CMakeFiles/Threads.dir/threads3.c.o
 Threads: CMakeFiles/Threads.dir/build.make
 Threads: CMakeFiles/Threads.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nour/CLionProjects/Threads/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Threads"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nour/CLionProjects/Threads/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable Threads"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Threads.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
