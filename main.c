@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <sys/time.h>
-int M,N;
+	int M,N;
 int M2,N2;
 int matrixA[1000][1000];
 int matrixB[1000][1000];
@@ -13,8 +13,7 @@ struct rowColoumn{
     int row;
     int coloumn;
 };
-void *multiplyRows(void *rowIndex)
-{
+void *multiplyRows(void *rowIndex){
     int ri = rowIndex;
     for(int j = 0 ; j < N2 ; j++ ){
         int sum = 0;
@@ -160,8 +159,8 @@ int main(int argc, char* argv []) {
     printf("Seconds taken %lu\n", stop2.tv_sec - start2.tv_sec);
     printf("Microseconds taken: %lu\n", stop2.tv_usec - start2.tv_usec);
     printf("Number of threads = %d\n",M*N2);
-    fclose(filePointer);
-    fclose(fp);
-    fclose(fp2);
+    //fclose(filePointer);
+    //fclose(fp);
+    //fclose(fp2);
     return 0;
 }
