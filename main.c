@@ -3,7 +3,8 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <sys/time.h>
-	int M,N;
+#include <unistd.h>
+int M,N;
 int M2,N2;
 int matrixA[1000][1000];
 int matrixB[1000][1000];
@@ -91,7 +92,7 @@ int main(int argc, char* argv []) {
     else{ readFile(fp2,1); }
     //Output file
     FILE *filePointer = fopen(argv[3], "w")  ;
-    if(filePointer == NULL){ filePointer = fopen("output.txt" ,"w"); }
+    if(filePointer == NULL){ filePointer = fopen("c.txt" ,"w"); }
     //Print Matrix A
     printf("Matrix A\n");
     printf("Dimensions %d %d\n",M,N);
@@ -139,11 +140,15 @@ int main(int argc, char* argv []) {
             x->row=i; x->coloumn=j;
             pthread_create(&tid2[c], NULL, multiplyElements, (void *)x);
             c++;
-            free(x);
+            //free(x);
         }
     }
      //Joining Threads and Writing Output to file.
-    for(int i = 0 ; i < M*N2 ; i++){ pthread_join(tid2[i], NULL); }
+    for(int i = 0 ; i < M*N2 ; i++){
+    	//int value;
+    	pthread_join(tid2[i], NULL);
+    }
+
     gettimeofday(&stop2, NULL); //end checking time
     printf("Second Method - Element-Wise Threads\n");
     printf("Answer Dimensions %d %d\n",M,N2);

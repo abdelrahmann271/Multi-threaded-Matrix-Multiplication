@@ -12,11 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="695574e3-1164-4ed0-9711-eda201bbece8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matout" beforeDir="false" afterPath="$PROJECT_DIR$/Matout" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/a.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/b.txt" beforeDir="false" afterPath="$PROJECT_DIR$/b.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
     </list>
@@ -80,7 +77,7 @@
       <updated>1605282031346</updated>
       <workItem from="1605282034813" duration="5062000" />
       <workItem from="1605291009552" duration="21012000" />
-      <workItem from="1605473779766" duration="8315000" />
+      <workItem from="1605473779766" duration="11569000" />
     </task>
     <servers />
   </component>
