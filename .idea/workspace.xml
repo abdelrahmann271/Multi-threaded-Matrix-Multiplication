@@ -12,11 +12,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="695574e3-1164-4ed0-9711-eda201bbece8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Matout" beforeDir="false" afterPath="$PROJECT_DIR$/Matout" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main_39.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passingArguments.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/threads1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/threads2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/threads3.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/waitingThreads.c" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +31,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/waitingThreads.c" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1kF2U3pv2r9Vv6WAmuQQi2wFfYi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -62,6 +61,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -75,6 +79,7 @@
       <workItem from="1605291009552" duration="21012000" />
       <workItem from="1605473779766" duration="11569000" />
       <workItem from="1605485976354" duration="2055000" />
+      <workItem from="1605605033615" duration="1298000" />
     </task>
     <servers />
   </component>
@@ -82,10 +87,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="421" y="147" width="585" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605313430069">
+    <state x="421" y="147" width="589" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605605276706">
       <screen x="72" y="27" width="1294" height="636" />
     </state>
-    <state x="421" y="147" width="585" height="403" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1294.636@72.27.1294.636" timestamp="1605313430069" />
+    <state x="421" y="147" width="589" height="403" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1294.636@72.27.1294.636" timestamp="1605605276706" />
     <state width="1248" height="154" key="GridCell.Tab.0.bottom" timestamp="1605316652709">
       <screen x="72" y="27" width="1294" height="636" />
     </state>
