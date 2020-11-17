@@ -4,6 +4,7 @@
 #include <ctype.h>
 #include <sys/time.h>
 #include <unistd.h>
+//chmod -x ./matmult.out -->To require access
 int M,N;
 int M2,N2;
 int matrixA[1000][1000];
