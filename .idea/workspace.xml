@@ -11,15 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="695574e3-1164-4ed0-9711-eda201bbece8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main_39.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/passingArguments.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threads1.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threads2.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threads3.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/waitingThreads.c" beforeDir="false" />
-    </list>
+    <list default="true" id="695574e3-1164-4ed0-9711-eda201bbece8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +71,7 @@
       <workItem from="1605291009552" duration="21012000" />
       <workItem from="1605473779766" duration="11569000" />
       <workItem from="1605485976354" duration="2055000" />
-      <workItem from="1605605033615" duration="1298000" />
+      <workItem from="1605605033615" duration="1635000" />
     </task>
     <servers />
   </component>

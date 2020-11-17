@@ -7,10 +7,10 @@
 //chmod -x ./matmult.out -->To require access
 int M,N;
 int M2,N2;
-int matrixA[1000][1000];
-int matrixB[1000][1000];
-int answer1[1000][1000];
-int answer2[1000][1000];
+int matrixA[10000][10000];
+int matrixB[10000][10000];
+int answer1[10000][10000];
+int answer2[10000][10000];
 struct rowColoumn{
     int row;
     int coloumn;

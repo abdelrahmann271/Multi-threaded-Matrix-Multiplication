@@ -4,12 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/nour/CLionProjects/Threads/main.c" "/home/nour/CLionProjects/Threads/cmake-build-debug/CMakeFiles/Threads.dir/main.c.o"
-  "/home/nour/CLionProjects/Threads/passingArguments.c" "/home/nour/CLionProjects/Threads/cmake-build-debug/CMakeFiles/Threads.dir/passingArguments.c.o"
-  "/home/nour/CLionProjects/Threads/threads1.c" "/home/nour/CLionProjects/Threads/cmake-build-debug/CMakeFiles/Threads.dir/threads1.c.o"
-  "/home/nour/CLionProjects/Threads/threads2.c" "/home/nour/CLionProjects/Threads/cmake-build-debug/CMakeFiles/Threads.dir/threads2.c.o"
-  "/home/nour/CLionProjects/Threads/threads3.c" "/home/nour/CLionProjects/Threads/cmake-build-debug/CMakeFiles/Threads.dir/threads3.c.o"
-  "/home/nour/CLionProjects/Threads/waitingThreads.c" "/home/nour/CLionProjects/Threads/cmake-build-debug/CMakeFiles/Threads.dir/waitingThreads.c.o"
+  "/home/nour/CLionProjects/Threads/main_39.c" "/home/nour/CLionProjects/Threads/cmake-build-debug/CMakeFiles/Threads.dir/main_39.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

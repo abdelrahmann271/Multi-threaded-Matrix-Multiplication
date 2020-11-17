@@ -143,167 +143,32 @@ Threads/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/build
 .PHONY : Threads/fast
 
-main.o: main.c.o
+main_39.o: main_39.c.o
 
-.PHONY : main.o
-
-# target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/main.c.o
-.PHONY : main.c.o
-
-main.i: main.c.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/main.c.i
-.PHONY : main.c.i
-
-main.s: main.c.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/main.c.s
-.PHONY : main.c.s
-
-passingArguments.o: passingArguments.c.o
-
-.PHONY : passingArguments.o
+.PHONY : main_39.o
 
 # target to build an object file
-passingArguments.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/passingArguments.c.o
-.PHONY : passingArguments.c.o
+main_39.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/main_39.c.o
+.PHONY : main_39.c.o
 
-passingArguments.i: passingArguments.c.i
+main_39.i: main_39.c.i
 
-.PHONY : passingArguments.i
-
-# target to preprocess a source file
-passingArguments.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/passingArguments.c.i
-.PHONY : passingArguments.c.i
-
-passingArguments.s: passingArguments.c.s
-
-.PHONY : passingArguments.s
-
-# target to generate assembly for a file
-passingArguments.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/passingArguments.c.s
-.PHONY : passingArguments.c.s
-
-threads1.o: threads1.c.o
-
-.PHONY : threads1.o
-
-# target to build an object file
-threads1.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/threads1.c.o
-.PHONY : threads1.c.o
-
-threads1.i: threads1.c.i
-
-.PHONY : threads1.i
+.PHONY : main_39.i
 
 # target to preprocess a source file
-threads1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/threads1.c.i
-.PHONY : threads1.c.i
+main_39.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/main_39.c.i
+.PHONY : main_39.c.i
 
-threads1.s: threads1.c.s
+main_39.s: main_39.c.s
 
-.PHONY : threads1.s
-
-# target to generate assembly for a file
-threads1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/threads1.c.s
-.PHONY : threads1.c.s
-
-threads2.o: threads2.c.o
-
-.PHONY : threads2.o
-
-# target to build an object file
-threads2.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/threads2.c.o
-.PHONY : threads2.c.o
-
-threads2.i: threads2.c.i
-
-.PHONY : threads2.i
-
-# target to preprocess a source file
-threads2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/threads2.c.i
-.PHONY : threads2.c.i
-
-threads2.s: threads2.c.s
-
-.PHONY : threads2.s
+.PHONY : main_39.s
 
 # target to generate assembly for a file
-threads2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/threads2.c.s
-.PHONY : threads2.c.s
-
-threads3.o: threads3.c.o
-
-.PHONY : threads3.o
-
-# target to build an object file
-threads3.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/threads3.c.o
-.PHONY : threads3.c.o
-
-threads3.i: threads3.c.i
-
-.PHONY : threads3.i
-
-# target to preprocess a source file
-threads3.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/threads3.c.i
-.PHONY : threads3.c.i
-
-threads3.s: threads3.c.s
-
-.PHONY : threads3.s
-
-# target to generate assembly for a file
-threads3.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/threads3.c.s
-.PHONY : threads3.c.s
-
-waitingThreads.o: waitingThreads.c.o
-
-.PHONY : waitingThreads.o
-
-# target to build an object file
-waitingThreads.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/waitingThreads.c.o
-.PHONY : waitingThreads.c.o
-
-waitingThreads.i: waitingThreads.c.i
-
-.PHONY : waitingThreads.i
-
-# target to preprocess a source file
-waitingThreads.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/waitingThreads.c.i
-.PHONY : waitingThreads.c.i
-
-waitingThreads.s: waitingThreads.c.s
-
-.PHONY : waitingThreads.s
-
-# target to generate assembly for a file
-waitingThreads.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/waitingThreads.c.s
-.PHONY : waitingThreads.c.s
+main_39.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/main_39.c.s
+.PHONY : main_39.c.s
 
 # Help Target
 help:
@@ -314,24 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Threads"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... passingArguments.o"
-	@echo "... passingArguments.i"
-	@echo "... passingArguments.s"
-	@echo "... threads1.o"
-	@echo "... threads1.i"
-	@echo "... threads1.s"
-	@echo "... threads2.o"
-	@echo "... threads2.i"
-	@echo "... threads2.s"
-	@echo "... threads3.o"
-	@echo "... threads3.i"
-	@echo "... threads3.s"
-	@echo "... waitingThreads.o"
-	@echo "... waitingThreads.i"
-	@echo "... waitingThreads.s"
+	@echo "... main_39.o"
+	@echo "... main_39.i"
+	@echo "... main_39.s"
 .PHONY : help
 
 
